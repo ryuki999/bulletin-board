@@ -41,7 +41,7 @@ if (!empty($_POST["signup"])) {
 
         // urltokenはnameのハッシュ値
         $urltoken = password_hash($name, PASSWORD_DEFAULT);
-        $url = "http://co-19-214.99sv-coco.com/kadai4_2/user-registration-form.php" . "?urltoken=" . $urltoken;
+        $url = "http://localhost/bulletin-board/bulletin-board/user-registration-form.php" . "?urltoken=" . $urltoken;
         $body = "登録確認メールの送信を受け付けました。\n24時間以内に下記のURLからご登録下さい。\n{$url}";
 
         $headers = "From: furukawa";
