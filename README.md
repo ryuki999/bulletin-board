@@ -66,7 +66,7 @@ auth_password=password
 force_sender=test@gmail.com
 ```
 
-* 修正後、`C:\xampp\htdocs`以下に本リポジトリ`bulletin-board`を配置し、`C:\xampp\xampp-control`から、ApacheとMySQLを起動する。
+* 修正後、本リポジトリをzipでダウンロードし、展開後、`bulletin-board-main`を`bulletin-board`に書き換え後、`C:\xampp\htdocs`以下に`bulletin-board`を配置し、`C:\xampp\xampp-control`から、ApacheとMySQLを起動する。
 * 起動後、この[URL](http://localhost/bulletin-board/bulletin-board/registration-form.php)にアクセスすると、アプリの同確認ができる。
 
 ## 参考文献
